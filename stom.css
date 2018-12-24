@@ -131,13 +131,19 @@ main .carousel{
 .mycompany{
 	color: #fcac45;
 }
+
+.pochemu{
+	background-color: #FEF0F0;
+}
 .wrapper{
 	width: 80%;
 	margin:0 auto;
+
 }
 main .main__about{
 	display: flex;
-	padding: 100px 0 100px 0;
+	padding: 100px 0 0 0;
+
 }
 .about__right{
 	margin-left: 175px;
@@ -153,12 +159,24 @@ main .main__about{
 .about__right p{
 	margin:30px 0 50px 0;
 	color: #6c6c6c;
+	padding-bottom: 2px;
+	font-size: 18px;
+}
 
-}
 .about__right li{
-background: url(img/mark.png) 0px no-repeat;
+background: lightblue 0px no-repeat;
 padding-left: 25px;
+line-height: 2.0;
+margin-bottom: 30px;
+margin-top: 30px;
+padding-top: 10px;
+
+border-radius: 20px 20px 20px 20px;
 }
+
+
+
+
 .mw-100{
 	min-width: 100%;
 }
@@ -412,7 +430,12 @@ margin-bottom: 50px;
 	.about__right li{
 		text-align: center;
 		font-size: 20px;
+		
 	}
+
+
+	
+
 	.about__right h1{
 		 margin-top: 10px;
 		 font-size: 50px;

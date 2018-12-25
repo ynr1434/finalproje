@@ -125,7 +125,10 @@ main .carousel{
 }
 
 
-
+.akcii{
+	
+	margin-top:-100px;
+}
 
 
 .mycompany{
@@ -134,6 +137,10 @@ main .carousel{
 
 .pochemu{
 	background-color: #FEF0F0;
+		border-bottom: red 5px solid;
+
+	
+
 }
 .wrapper{
 	width: 80%;
@@ -182,30 +189,26 @@ border-radius: 20px 20px 20px 20px;
 }
 
 .main__team{
-	border-top:5px solid red;
-	border-bottom:5px solid red;
-	background-image: url('img/backgr.jpg') ;
-	text-align: center;
-	padding: 100px 0 165px 0;
-	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 20px;
 
-}
-.main__team h1{
-	font-size: 44px;
-	padding-bottom: 30px;
+	
 }
 
-.photo{
-	background-image: url('img/person.jpeg');
-	background-size: cover;
-	width: 125px;
-	height: 125px;
-	border-radius: 50%;
-	margin:20px auto;
-}
 .team__cards{
-	display: flex;
+	margin-bottom: 20px;
 }
+
+.komanda{
+	background-color: #FEEBEE;
+}
+
+.card{
+	margin-top: 20px;
+	padding-bottom: : 20px;
+}
+
+
 .name{
 	font-size: 20px;
 	margin-bottom: 7px;
@@ -218,11 +221,7 @@ border-radius: 20px 20px 20px 20px;
 .about__position{
 	font-size: 14px;
 }
-.card{
-	margin:0 40px;
-	color: black;
 
-}
 
 .services__cards{
 	text-align: center;
@@ -232,8 +231,9 @@ border-radius: 20px 20px 20px 20px;
 }
 
 .main__services {
-	border-bottom:5px solid red;
-}
+		border-bottom:5px solid red;
+	}
+
 .main__services h1{
 	text-align: center;
 	padding: 100px 0 30px 0;
@@ -448,25 +448,7 @@ margin-bottom: 50px;
 
 
 
-	.team__cards{
-	flex-direction: column;
-}
-
-.card{
-	margin-bottom: 20px;
-}
-.card h4{
-	font-size: 40px;
-}
-
-.card h2{
-	font-size: 25px;
-	line-height: 1.6;
-}
-
-.card p{
-	font-size: 20px;
-}
+	
 
  .wrapper h1{
 	font-size: 50px;

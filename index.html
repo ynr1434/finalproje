@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	 
     
 </head>
 <body>
@@ -21,9 +21,9 @@
 		<nav>
 			<div class="topnav responsive" id="myTopnav">
 				<a href="#">О КОМПАНИИ</a>
-				<a href="#">УСЛУГИ</a>
-				<a href="#">АКЦИИ</a>
-				<a href="forma.html">КОНТАКТЫ</a>
+				<a href="#usl">УСЛУГИ</a>
+				<a href="#akc">АКЦИИ</a>
+				<a href="#cont">КОНТАКТЫ</a>
 				
 				
 			</div>
@@ -94,7 +94,7 @@
 				<ul>
 					<li><img src="img/strelka.png" style="float:left;" width="20" height="20"><h4>Безболезненно<h4><p>Любая анестезия проводится максимально безболезненно<p></li>
 					<li><img src="img/strelka.png" style="float:left;" width="20" height="20"><h4>Безопасно<h4><p>Стоматологические установки отвечают самым высоким требованиям безопасности лечения и защиты от инфекций<p></li>
-					<li><img src="img/strelka.png" style="float:left;" width="20" height="20"><h4>Красиво и естественно<h4><p>Материалы премиум класса позволяют сделать пломбу максимально эстетичной и долговечной<p></li>
+					<li><img src="img/strelka.png" id="akc" style="float:left;" width="20" height="20"><h4>Красиво и естественно<h4><p>Материалы премиум класса позволяют сделать пломбу максимально эстетичной и долговечной<p></li>
 				</ul>
 			</div>
 		</div>
@@ -105,38 +105,32 @@
 
 
 		<div class="akcii">
-		<div class="wrapper">
-			<div class="main__work">
-				<h1>АКЦИИ</h1>
-				<p><i>ТЕКСТ ТОЖЕ ВСТАВИТЬ И ФОТОЧКИ САМОЙ СТОМАТОЛОГИИ И РАБОТЫ МАСТЕРОВ</i></p>
-				<div class="gallery">
-					<div class="line1">
-						<img src="img/1.png" alt="">
-						<img src="img/1.png" alt="">
-						<img src="img/1.png" alt="">	
-						<img src="img/1.png" alt="">						
-					
-					</div>
-					<div class="line2">
-						<img src="img/2.png" alt="">
-						<img src="img/2.png" alt="">
-						<img src="img/2.png" alt="">
-						<img src="img/2.png" alt="">
-					</div>
-					<div class="line3">
-						<img src="img/3.png" alt="">
-						<img src="img/3.png" alt="">
-						<img src="img/3.png" alt="">
-						<img src="img/3.png" alt="">
-					</div>
-					</div>
-				</div>
-			</div>
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="3000">
+      <img src="img/akcii1.jpg" class="d-block w-100" alt="pervi slide">
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="img/akcii2.jpg" class="d-block w-100" alt="vtoroi slide">
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="img/akcii3.jpg" class="d-block w-100" alt="tretii slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 		</div>
 
 
-	<div class="main__services">
-		<div class="wrapper">
+	<div class="main__services" id="usl">
+		<div class="wrapper" >
 			<h1>НАШИ УСЛУГИ</h1>
 			
 			<div class="services__cards">
@@ -177,46 +171,42 @@
 	</div>
 
 
-
+<div class="komanda">
 		<div class="main__team">
 			<div class="wrapper">
 			<h1>Наша Команда</h1>
 			<div class="team__cards">
 				<div class="card">
-					<div class="photo"></div>
-					<h4>Иван Иванов</h4>
-					<h2>- Стоматолог -</h2>
-					<p>аывдоаы ыважылва флывджфывлджф ыфлвджфывлдж фывлфжыд ьвыалыва</p>
+					<h4><img src="img/tth.png" style="float:left;" width="20" height="20">
+					Федоров Виталий Николаевич</h4>
+					<p>Врач стоматолог-ортопед высшей категории, стаж 34 года</p>
 				</div>
 				<div class="card">
-					<div class="photo"></div>
-					<h4>Иван Иванов</h4>
-					<h2>- Стоматолог -</h2>
-					<p>аывдоаы ыважылва флывджфывлджф ыфлвджфывлдж фывлфжыд ьвыалыва</p>
+					<h4><img src="img/tth.png" style="float:left;" width="20" height="20">
+					Кабылкенова Кадиша Кабышевна</h4>
+					<p>Врач терапевт-ортопед высшей категории, стаж 21 год</p>
 				</div>
 				<div class="card">
-					<div class="photo"></div>
-					<h4>Иван Иванов</h4>
-					<h2>- Стоматолог -</h2>
-					<p>аывдоаы ыважылва флывджфывлджф ыфлвджфывлдж фывлфжыд ьвыалыва</p>
+					<h4><img src="img/tth.png" style="float:left;" width="20" height="20">
+					Айдарбекова Динара Анварбековна</h4>
+					<p>Зубной врач терапевт I категории, стаж 5 лет</p>
 				</div>
 				<div class="card">
-					<div class="photo"></div>
-					<h4>Иван Иванов</h4>
-					<h2>- Стоматолог -</h2>
-					<p>аывдоаы ыважылва флывджфывлджф ыфлвджфывлдж фывлфжыд ьвыалыва</p>
+					<h4><img src="img/tth.png" style="float:left;" width="20" height="20">
+					Крыкбесова Зульфия Нургалиевна</h4>
+					<p>Врач стоматолог-терапевт высшей категории, стаж 8 лет</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-	
-
+	</div>
 	
 
+	
 
 
-		<div class="contacti-snizu">
+
+		<div class="contacti-snizu" id="cont">
 			<div class="wrapper">
 				<div class="karta">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.061838730028!2d76.94501581551829!3d52.29673206050424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42f83534bbcd64bd%3A0x6e5c02e5bcf7d218!2z0YPQuy4g0JDQutCw0LTQtdC80LjQutCwINCQ0LHQuNC60LXQvdCwINCR0LXQutGC0YPRgNC-0LLQsCAxNSwg0J_QsNCy0LvQvtC00LDRgCAxNDAwMDA!5e0!3m2!1sru!2skz!4v1545595606679" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -236,7 +226,6 @@
 
 
 	</main>
-
 
 <script src="slider.js"></script>
 
